@@ -1,0 +1,38 @@
+/** @format */
+
+.product-main {
+  margin: 0 auto;
+  width: 500px;
+  font-family: sans-serif;
+}
+h4 {
+  color: #a0a3b6;
+}
+h1 {
+  color: #2d3862;
+}
+
+.bottom-buttons {
+  margin-top: 25px;
+}
+
+.bottom-buttons button {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 90px 20px 90px;
+  border-radius: 5px;
+  color: rgb(88, 84, 84);
+  border: 4px solid #fcf5fc;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.highlighted {
+  background-color: #645eaf;
+}
+
+a {
+  text-decoration: none;
+  color: beige !important;
+}
