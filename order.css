@@ -3,7 +3,7 @@
 .main-div {
   margin: 0 auto;
   width: 450px;
-  font-family: sans-serif;
+  font-family: 'Urbanist', sans-serif;
 }
 .header-div {
   display: flex;
@@ -14,8 +14,9 @@
   font-weight: bold;
 }
 .left-arrow img {
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
+  color: #9095ab;
 }
 
 article {
@@ -26,13 +27,14 @@ article {
   width: 100%;
   background-color: #645eaf;
   min-height: 150px;
-  border-radius: 18px;
-  color: #fdfcfd;
-  font-size: 16px;
+  border-radius: 25px;
+  color: #fdf9ff;
+  font-size: 17px;
   text-align: center;
   padding: 10px 5px 10px 5px;
   position: relative;
   margin-bottom: 35px;
+  font-weight: 600;
 }
 
 .description:before {
@@ -43,9 +45,9 @@ article {
   transform: translate(50%, -50%);
   width: 95px;
   height: 95px;
-  border-radius: 0 18px 0 95px;
-  -moz-border-radius: 0 18px 0 95px;
-  -webkit-border-radius: 0 18px 0 95px;
+  border-radius: 0 25px 0 95px;
+  -moz-border-radius: 0 25px 0 95px;
+  -webkit-border-radius: 0 25px 0 95px;
   background: #7572bc;
   mix-blend-mode: lighten;
 }
@@ -58,9 +60,9 @@ article {
   transform: translate(50%, -50%);
   width: 95px;
   height: 95px;
-  border-radius: 0 95px 0 18px;
-  -moz-border-radius: 0 95px 0 18px;
-  -webkit-border-radius: 0 95px 0 18px;
+  border-radius: 0 95px 0 25px;
+  -moz-border-radius: 0 95px 0 25px;
+  -webkit-border-radius: 0 95px 0 25px;
   background: #7572bc;
   mix-blend-mode: lighten;
 }
@@ -85,14 +87,14 @@ article {
 
 .description-p2 {
   margin-top: 22px;
-  margin-left: -24px;
+  margin-left: -12px;
 }
 
 .grid-element {
   height: 40px !important;
   width: 40px !important;
   border-radius: 8px;
-  background-color: #9999ff;
+  background-color: #9483a2;
 }
 
 .grid-element img {
@@ -115,9 +117,10 @@ article {
 }
 
 .optional {
-  color: #e6d2b8;
-  font-size: 18px;
+  color: #dfcc9d;
+  font-size: 22px;
   margin-bottom: 25px;
+  font-weight: 900;
 }
 
 .shipping-details {
@@ -152,7 +155,7 @@ h3 {
   content: '';
   position: absolute;
   left: 22px;
-  border-left: 2px dashed #ee8753;
+  border-left: 2px dashed #dfa38a;
   top: 66%;
   bottom: -13%;
 }
@@ -161,8 +164,16 @@ h3 {
   border: none;
 }
 
+.shipping-details-child:nth-child(4):after {
+  border-left: 2px dashed#fcd2bd;
+}
+
 .shipping-details-child:nth-child(5):after {
   top: 68px;
+  border-left: 2px dashed#fad8c9;
+}
+.shipping-details-child:nth-child(6):after {
+  border: none;
 }
 
 .map-img {
@@ -172,11 +183,11 @@ h3 {
 .shopping {
   height: 50px;
   width: 50px;
-  border-radius: 18px;
+  border-radius: 8px;
 }
 
 .all-item {
-  background-color: #f7ec88;
+  background-color: #fddd98;
 }
 
 .delivered {
